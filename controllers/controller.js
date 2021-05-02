@@ -1,11 +1,9 @@
-exports.resLoginPage = (req, res, next) => {
+exports.resLoginPage = (req, res) => {
     //ejsで応答する
     res.render("../views/login.ejs");
-    next();
 }
 
-exports.resRegister = (req, res ,next) => {
+exports.resRegister = (req, res ) => {
     //ejsで応答する
     res.render("../views/register.ejs");
-    next();
 }
