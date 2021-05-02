@@ -1,6 +1,5 @@
-//const controller = require("./controllers/controller");
 //expressモジュールをアプリケーションに追加
-express = require("express"),
+express = require("express");
 //インスタンスの生成
 app = express();
 //ブランチがdevelopなのでポート番号は3000を設定する
